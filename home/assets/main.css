@@ -1,0 +1,147 @@
+body {
+      background-color: #cfe0c3;
+      margin: 0;
+      font-family: 'Doppio One';
+    }
+    /*
+    Alternate Colours
+    #90b4d5
+    #9ec1a3
+    #cfe0c3
+    */
+    h1 {
+      text-align: unset;
+      color: #ffffff;    
+    }
+    h2 {
+      text-align: unset;
+      color: white;
+    }
+    
+    p {
+      text-align: center;
+      color: black;
+      font-size: 20px;
+    }
+  #main{
+    margin-left:20%;
+    padding:1px 16px;
+    height:1000px;
+    }
+  #head{
+    background-color: #9e9e9e;
+  }
+
+
+/*W3 Schools Top Bar Example      Top Nav?*/
+
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+    position: relative;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+
+
+
+
+
+/* W3 Schools Side Nav Example*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 20%;
+    background-color: #4c4c4c;
+    position: absolute;
+    height: 150%;
+    overflow: auto;
+    /*(border: 1px solid #8f8f8f;*/
+}
+
+li a {
+    display: block;
+    color: #ffffff;
+    padding: 8px 16px;
+    text-decoration: none;
+    border-bottom: 2px solid #555;
+}
+
+li a.active {
+    background-color: #979797;
+    color: white;
+}
+
+li a:hover:not(.active) {
+    background-color: #636363;
+    color: white;
+}	 
+/*
+Alternate Themes
+1f363d
+40798c
+70a9a1
+*/
+
+
+   /*Rainbow Text CSS*/
+ .rainbow {
+   /* Chrome, Safari, Opera */
+  -webkit-animation: rainbow 3s infinite;
+  
+  /* Internet Explorer */
+  -ms-animation: rainbow 3s infinite;
+  
+  /* Standar Syntax */
+  animation: rainbow 3s infinite;
+}
+
+/* Chrome, Sa>fari, Opera */
+@-webkit-keyf>rames rainbow{
+  0%{color: o>range;}
+  10%{color: >purple;}
+	20%{color: >red;}
+	40%{color: >yellow;}
+	60%{color: >green;}
+	100%{color:> blue;}
+	100%{color:> orange;}
+}
+/* Internet E>xplorer */
+@-ms-keyframe>s rainbow{
+  0%{color: orange;}
+  10%{color: purple;}
+	20%{color: red;}
+	40%{color: yellow;}
+	60%{color: green;}
+	100%{color: blue;}
+	100%{color: orange;}
+}
+
+/* Standar Syntax */
+@keyframes rainbow{
+  0%{color: orange;}
+  10%{color: purple;}
+	20%{color: red;}
+	40%{color: yellow;}
+	60%{color: green;}
+	100%{color: blue;}
+	100%{color: orange;}
+}
