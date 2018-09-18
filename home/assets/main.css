@@ -17,6 +17,10 @@ body {
       text-align: unset;
       color: white;
     }
+    h3 {
+      text-align: unset;
+      color: white;
+    }
     
     p {
       text-align: center;
@@ -86,8 +90,14 @@ li a {
 }
 
 li a.active {
-    background-color: #979797;
+    background-color: #696969;
     color: white;
+}
+
+li a.home{
+    background-color: #3b3b3b;
+    color: white;
+    font-weight: bold;
 }
 
 li a:hover:not(.active) {
