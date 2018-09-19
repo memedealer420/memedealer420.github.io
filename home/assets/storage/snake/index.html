@@ -1,0 +1,35 @@
+<!DOCTYPE html> 
+<!--<html manifest="snake.appcache">-->
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script><!--
+
+JavaScript Snake
+By Patrick Gillespie
+http://patorjk.com/games/snake
+
+Source code is available here: https://github.com/patorjk/JavaScript-Snake
+
+--> 
+    <title>Coolmath Games Snake</title>
+
+    <link rel=stylesheet id=style type=text/css href=./css/main-snake.css />
+<!--     <button class="theme-button" style="display:none;" onclick=getTheme()>Click to use this theme.</button>
+    <select id="select" style="display:none;">
+        <option>Dark Theme</option>
+        <option>Revert To Original</option>
+    </select>
+-->
+    <div id="mode-wrapper">Select which mode you would like to play in.<br /><button id="Easy">Easy</button><br /><button id="Medium">Medium</button><br /><button id="Difficult">Difficult</button></div>
+</head>
+<body>
+    <div id="game-area" tabindex="0">
+    </div>
+    <script type="text/javascript" src="./js/snake.js"></script>
+    <script type="text/javascript">
+    var mySnakeBoard = new SNAKE.Board(  {
+                                            boardContainer: "game-area",
+                                            fullScreen: true
+                                        });    
+    </script>
+</body>
+</html>

@@ -11,15 +11,15 @@ body {
     */
     h1 {
       text-align: unset;
-      color: #ffffff;    
+      color: #333333;    
     }
     h2 {
       text-align: unset;
-      color: white;
+      color: #333333;
     }
     h3 {
       text-align: unset;
-      color: white;
+      color: 333333;
     }
     
     p {
@@ -27,6 +27,11 @@ body {
       color: black;
       font-size: 20px;
     }
+    a {
+      text-decoration: none;
+      color: #1100ff;
+    }
+
   #main{
     margin-left:20%;
     padding:1px 16px;
@@ -154,4 +159,20 @@ Alternate Themes
 	60%{color: green;}
 	100%{color: blue;}
 	100%{color: orange;}
+}
+
+.circle {
+
+  display: inline-block;
+  height: 15px;
+  width: 15px;
+  margin-right: 20px;
+  background-color: #fc6e51;
+  border-radius: 50%;
+  -webkit-animation: afg_container_loading 1.6s infinite;
+  -moz-animation: afg_container_loading 1.6s infinite;
+  -o-animation: afg_container_loading 1.6s infinite;
+  animation: afg_container_loading 1.6s infinite;
+      animation-delay: 0s;
+
 }
