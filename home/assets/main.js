@@ -55,3 +55,6 @@ $(document).ready(function() {
       }
       })
     })
+
+
+window.location.replace("https://memedealer420.github.io/index.html");
