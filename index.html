@@ -13,13 +13,45 @@ window.location.replace("home/index.html")
 -->
 <body>
 <h1>
-Services from this site will no longer be provided
+Due to Popular demand, this site will be running again.
 </h1>
 <hr>
 <h3>
 Thank You for shopping at Coles
 </h3>
+
+<p id="x">
+x
+</p>
 </body>
+ <script>
+  //i know that there's an easier way but i cbf
+  setInterval(countdown4,1000)
+  function countdown4(){
+  document.getElementById("x").innerHTML = "4";
+  }
+  setInterval(countdown3,3000)
+  function countdown3(){
+  document.getElementById("x").innerHTML = "3";
+  }
+  setInterval(countdown2,4000)
+  function countdown2(){
+  document.getElementById("x").innerHTML = "2";
+  }
+  setInterval(countdown1,5000)
+  function countdown1(){
+  document.getElementById("x").innerHTML = "1";
+  }
+  setInterval(countdown0,6000)
+  function countdown0(){
+  document.getElementById("x").innerHTML = "0";
+  }
+  
+//    setInterval(redirect,5000);
+//    function redirect(){
+//      window.location.replace("https://memedealer420.github.io/home/index.html");
+    }
+  </script>
 </html>
 
 <!--
