@@ -56,5 +56,26 @@ $(document).ready(function() {
       })
     })
 
+//Restructured Navigation Bar
+$(document).ready(function(){
+document.getElementById("li1").href = "https://memedealer420.github.io/home";
+document.getElementById("li1").innerHTML = "MemeDealer Yeet";
+document.getElementById("li2").href= "bubbles.html";
+document.getElementById("li2").innerHTML = "Bubble Shooter";
+//Create New Value for li1
+var li3p = document.createElement("li");
+var li3n = document.createTextNode("Yeet");
+li3p.appendChild(li3n);
+
+var li3 = document.getElementsByTagName("li")[0];
+var att = document.createAttribute("id");
+att.value = "li3";
+li1.setAttributeNode(att);
+
+var element = document.getElementById("nav");
+var child = document.getElementById("li3");
+element.appendChild(li3);
 
 
+
+})
