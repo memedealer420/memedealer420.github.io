@@ -61,8 +61,8 @@ $(document).ready(function(){
 document.getElementById("li1").href = "index.html";
 document.getElementById("li1").innerHTML = "MemeDealer Yeet";
 
-document.getElementById("li2").href= "2048.html";
-document.getElementById("li2").innerHTML = "2048";
+document.getElementById("li2").href= "quarantine.html";
+document.getElementById("li2").innerHTML = "2048 (Quarantined)";
 
 document.getElementById("li3").href= "bubbles.html";
 document.getElementById("li3").innerHTML = "Bubble Shooter";
@@ -125,16 +125,13 @@ document.getElementById("li20").innerHTML = "";
 var li3p = document.createElement("li");
 var li3n = document.createTextNode("Yeet");
 li3p.appendChild(li3n);
-
 var li3 = document.getElementsByTagName("li")[0];
 var att = document.createAttribute("id");
 att.value = "li3";
 li1.setAttributeNode(att);
-
 var element = document.getElementById("nav");
 var child = document.getElementById("li3");
 element.appendChild(li3);
-
 */
 
 })
