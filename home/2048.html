@@ -11,14 +11,16 @@
  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
  </script>
   <script src="assets/main.js"></script>
-  <script src="assets/2048Clone/js/animframe_polyfill.js"></script>
-  <script src="assets/2048Clone/js/keyboard_input_manager.js"></script>
-  <script src="assets/2048Clone/js/html_actuator.js"></script>
-  <script src="assets/2048Clone/js/grid.js"></script>
-  <script src="assets/2048Clone/js/tile.js"></script>
-  <script src="assets/2048Clone/js/local_score_manager.js"></script>
-  <script src="assets/2048Clone/js/game_manager.js"></script>
-  <script src="assets/2048Clone/js/application.js"></script>
+  <script src="assets/2048-master/js/bind_polyfill.js"></script>
+  <script src="assets/2048-master/js/classlist_polyfill.js"></script>
+  <script src="assets/2048-master/js/animframe_polyfill.js"></script>
+  <script src="assets/2048-master/js/keyboard_input_manager.js"></script>
+  <script src="assets/2048-master/js/html_actuator.js"></script>
+  <script src="assets/2048-master/js/grid.js"></script>
+  <script src="assets/2048-master/js/tile.js"></script>
+  <script src="assets/2048-master/js/local_storage_manager.js"></script>
+  <script src="assets/2048-master/js/game_manager.js"></script>
+  <script src="assets/2048-master/js/application.js"></script>
 </head>
 
 <body> 
@@ -27,7 +29,7 @@
   <h1 style="text-align: center">
 
     <!--Title-->
-     <b class="rainbow"></b>
+     <b style="color:aliceblue;">I broke this</b>
   </h1>
   </div>
 
@@ -65,7 +67,11 @@
             <div class="best-container">0</div>
           </div>
         </div>
-        <p class="game-intro"><span class="intro-container">Join the numbers and get to the</span><span class="intro-container"><strong>&nbsp;2048&nbsp;</strong></span><span class="intro-container"><strong>tile!</strong></span></p>
+    
+        <div class="above-game">
+          <p class="game-intro">Join the numbers and get to the <strong>2048 tile!</strong></p>
+          <form><input class="restart-button" type="button" value="New Game"></form>
+        </div>
     
         <div class="game-container">
           <div class="game-message">
@@ -111,7 +117,15 @@
         <p class="game-explanation">
           <strong class="important">How to play:</strong> Use your <strong>arrow keys</strong> to move the tiles. When two tiles with the same number touch, they <strong>merge into one!</strong>
         </p>
-      </div>
+       <!-- Sorry <hr>
+        <p>
+        <strong class="important">Note:</strong> This site is the official version of 2048. You can play it on your phone via <a href="http://git.io/2048">http://git.io/2048.</a> All other apps or sites are derivatives or fakes, and should be used with caution.
+        </p>
+        <hr>
+        <p>
+        Created by <a href="http://gabrielecirulli.com" target="_blank">Gabriele Cirulli.</a> Based on <a href="https://itunes.apple.com/us/app/1024!/id823499224" target="_blank">1024 by Veewo Studio</a> and conceptually similar to <a href="http://asherv.com/threes/" target="_blank">Threes by Asher Vollmer.</a>
+        </p>-->
+      </div> 
     </div>
 </body>
 </html>

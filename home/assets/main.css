@@ -176,3 +176,23 @@ Alternate Themes
       animation-delay: 0s;
 
 }
+.restart-button {
+background-color: #111;
+    border: none;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    padding: 9px 20px;
+    text-transform: uppercase;
+    /* -webkit-transition: .2s ease all; */
+    -o-transition: .2s ease all;
+    transition: .2s ease all;
+    position: absolute;
+    width: 500px;
+  }
+
+.restart-button:hover, input[type=button]:hover, input[type=reset]:hover, input[type=submit]:hover {
+  cursor: pointer;
+  background: #e9b36d;
+}

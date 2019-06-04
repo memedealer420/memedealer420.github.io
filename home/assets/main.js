@@ -61,8 +61,8 @@ $(document).ready(function(){
 document.getElementById("li1").href = "index.html";
 document.getElementById("li1").innerHTML = "MemeDealer Yeet";
 
-document.getElementById("li2").href= "quarantine.html";
-document.getElementById("li2").innerHTML = "2048 (Quarantined)";
+document.getElementById("li2").href= "2048.html";
+document.getElementById("li2").innerHTML = "2048";
 
 document.getElementById("li3").href= "bubbles.html";
 document.getElementById("li3").innerHTML = "Bubble Shooter";
